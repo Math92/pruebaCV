@@ -1,0 +1,93 @@
+.header {
+    background-color:rgb(116, 122, 233);
+    width: 1440px;
+    height: 188.1888427734375px;
+}
+
+.foto {
+    background-image: url(/img/fotoPerfil.jpeg);
+    width: 140px;
+    height: 190px;
+    display: block; 
+    margin: 0 auto;
+}
+
+h1 {
+    background: rgba(212, 211, 211, 0.816);
+    width: 1440px;
+    height: 60px;
+    top: 188px;
+    font-family: Times New Roman;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgb(149, 17, 0);
+    font-family: Times New Roman;
+}
+
+h2 {
+    width: 1440px;
+    height: 30px;
+    top: 376px;
+    background: rgb(72, 239, 97);
+    color:rgba(0, 86, 119, 1);
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 1440px;
+    height: 188.1888427734375px;
+    background-color: rgb(107, 210, 176);
+}
+
+footer {
+    width: 1440px;
+    height: 37px;
+    top: 987px;
+}
+
+li {
+    font-size: 15 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.iconoG {
+    font-size: 100px;
+    margin-right: 10px;
+    display: inline-block; /* mostrar los iconos en linea */
+    color:black
+}
+
+.iconoF {
+    font-size: 100px;
+    margin-right: 10px;
+    display: inline-block; /* mostrar los iconos en linea */
+    color:rgb(25, 8, 208)
+}
+
+.iconoS{   
+    font-size: 100px;
+    margin-right: 10px;
+    display: inline-block; /* mostrar los iconos en linea */
+    color:rgb(25, 8, 208)
+}
+
+.iconoV {   
+    font-size: 100px;
+    margin-right: 10px;
+    display: inline-block; /* mostrar los iconos en linea */
+    color:rgb(6, 241, 10)
+}
