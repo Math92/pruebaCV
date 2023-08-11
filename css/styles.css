@@ -10,15 +10,15 @@
 
 
 .header {
-    background-color:rgb(116, 122, 233);
+    background-color:rgb(112, 121, 251);
     width: 1440px;
-    height: 188.1888427734375px;
+    height: 200px;
 }
 
 .foto {
     background-image: url(/img/fotoPerfil.jpeg);
-    width: 140px;
-    height: 190px;
+    width: 150px;
+    height: 180px;
     display: block; 
     margin: 0 auto;
 }
@@ -106,4 +106,8 @@ li {
     margin-right: 10px;
     display: inline-block; 
     color:rgb(25, 8, 208)
+}
+
+sobreMi {
+    display: inline-block; 
 }
