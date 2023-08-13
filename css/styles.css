@@ -1,67 +1,60 @@
-/* @font-face {
-    font-family: 'mifuente';
-    src: url(/fonts/static/BricolageGrotesque-Bold.ttf);
-} */
-
-/* @font-face {
-    font-family: 'mifuente2';
-    src: url(/fonts/Montserrat/static/Montserrat-BoldItalic.ttf);
-} */
-
-
 .header {
-    background-color:rgb(82, 247, 73);
-    width: 1440px;
-    height: 200px;
+    width: 600;
+    height: 1200;
 }
 
 .foto {
     background-image: url(/img/fotoPerfil.jpeg);
-    width: 150px;
-    height: 180px;
+    width: 300px;
+    height:350px;
     display: block; 
     margin: 0 auto;
 }
 
 h1 {
-    background: rgba(212, 211, 211, 0.816);
     width: 1440px;
     height: 60px;
     top: 188px;
-    font-family: 'mifuente2';
     font-size: 35px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-    color:rgb(149, 17, 0);
+    color:rgb(250, 247, 246);
+    font-family: 'Geneva',sans-serif;
 }
 
 h2 {
     width: 1440px;
     height: 30px;
     top: 376px;
-    background: rgb(72, 239, 97);
-    color:rgba(0, 86, 119, 1);
-    font-family: Times New Roman;
-    font-size: 20px;
+    color:rgb(242, 238, 238);
+    font-family: 'Times New Roman';
+    font-size: 30px;
     font-weight: 700;
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
 }
 
-p {
-    font-weight: bold;
-    font-size: 25px;
-    font-family: 'tangerine';
+li {
+    color:white;
+    font-size: 30px;
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 body {
     width: 1440px;
-    height: 188.1888427734375px;
-    background-color: rgb(107, 210, 176);
+    height: 1300px;
+    background-image: url(/img/motana.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.9); /* Agrega opacidad ajustando el último valor (0.5) */
 }
+
 
 footer {
     width: 1440px;
@@ -69,29 +62,11 @@ footer {
     top: 987px;
 }
 
-li {
-    font-size: 15 px;
-}
-
 .iconoG {
-    font-size: 100px;
-    margin-right: 10px;
+    font-size: 50px;
+    margin-right: 30px;
     display: inline-block; 
-    color:black
-}
-
-.iconoF {
-    font-size: 100px;
-    margin-right: 10px;
-    display: inline-block; 
-    color:rgb(25, 8, 208)
-}
-
-.iconoS{   
-    font-size: 100px;
-    margin-right: 10px;
-    display: inline-block; 
-    color:rgb(25, 8, 208)
+    color: white
 }
 
 .iconoV {   
@@ -101,13 +76,42 @@ li {
     color:rgb(6, 241, 10)
 }
 
-.far {
+.iconoF {
     font-size: 100px;
     margin-right: 10px;
     display: inline-block; 
     color:rgb(25, 8, 208)
 }
 
-sobreMi {
-    display: inline-block; 
+.sobreMi {
+    font-size: 25px;
+    color: black;
+}
+
+h3 {
+    color:blanchedalmond;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.li-white {
+    color:whitesmoke;
+    font-size: 30px;
+    font-style: bold;
+}
+
+a {
+    color: white;
+    font-style: oblique;
+}
+
+.p-sobremi {
+    color :rgb(250, 247, 246);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p-contacto {
+    color :rgb(250, 247, 246);
+    font-size: 40px;
 }
