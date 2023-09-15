@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body {
+  width: 1440px;
+  height: 1300px;
+  background-image: url(/img/motana.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.9); /* Agrega opacidad ajustando el último valor (0.5) */
+}
+
+header {
+  width: 600;
+  height: 1200;
+}
+header .foto {
+  background-image: url(/img/fotoPerfil.jpeg);
+  width: 300px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+header .sobreMi {
+  font-size: 25px;
+  color: black;
+}
+
+main h1 {
+  width: 1440px;
+  height: 60px;
+  top: 188px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(250, 247, 246);
+  font-family: "Geneva", sans-serif;
+}
+main h2 {
+  width: 1440px;
+  height: 30px;
+  top: 376px;
+  color: rgb(242, 238, 238);
+  font-family: "Times New Roman";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+main ul .li-white {
+  color: whitesmoke;
+  font-size: 30px;
+  font-style: bold;
+}
+main h3 {
+  color: blanchedalmond;
+  font-style: italic;
+  font-size: 20px;
+}
+main li {
+  color: white;
+  font-size: 30px;
+  font-style: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main a {
+  color: white;
+  font-style: oblique;
+}
+
+footer {
+  width: 1440px;
+  height: 37px;
+  top: 987px;
+}
+footer a {
+  color: white;
+  font-style: oblique;
+}
+footer .iconoG {
+  font-size: 50px;
+  margin-right: 30px;
+  display: inline-block;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
